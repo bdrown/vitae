@@ -117,6 +117,17 @@ em {
     /*margin-right: 6px;*/
 }
 
+.paper > em {
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(40, 40, 40);
+    /*margin-right: 6px;*/
+}
+
+.paper > i {
+    font-style: italic;
+}
+
 @media print {
     @page {
         margin: 15mm;
